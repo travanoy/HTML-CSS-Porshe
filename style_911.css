@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: 'Porsche';
+    src: url('font/Porsche Regular_0.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    font-family: 'Porsche', sans-serif;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+}
+.configuration{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 45px;
+    margin: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(44, 44, 44, 0.897);
+    border: solid;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 35px;
+    margin: 15px;
+    position: absolute;
+    top: 15px;
+    
+    transition: transform 0.4s ease;
+}
+a:hover{
+
+    color: rgb(100, 100, 100); 
+    transform: scale(1.05);
+    transition: 0.6s ease;
+    background-color: rgba(255, 255, 255, 0.089);
+  
+}
+.car_body{
+    margin: 50px;
+    font-family: "Montserrat", serif ;
+    font-size: 27px;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 20px;
+}
+.car{
+    margin: 35px;
+
+}
+.car img{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.conf{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 38px;
+}
+.carrera.t{
+    position: relative;
+    top: 150px;
+    width: 90%;
+    max-width: 1200px;
+    
+}
+.exit{
+    border-radius: 18px;
+    border:1px solid black;
+    font-size: 40px;
+    top:100px;
+    right: 100px;
+}
